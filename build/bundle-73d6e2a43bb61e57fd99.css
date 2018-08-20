@@ -1,0 +1,107 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background-color: #f5f7f9;
+  font-family: Helvetica; }
+.header-container {
+  background-color: white;
+  margin-left: 0px;
+  padding: 20px;
+  margin-bottom: 30px; }
+  .header-container .header-text {
+    font-weight: 600;
+    font-size: 24px; }
+.sidebar {
+  display: inline-block;
+  background-color: white;
+  width: 250px;
+  padding: 10px; }
+  .sidebar .product {
+    display: block;
+    text-align: center;
+    width: 100%; }
+    .sidebar .product .product-image {
+      display: block;
+      width: 60%;
+      max-width: 80%;
+      margin: auto; }
+    .sidebar .product .title {
+      display: block;
+      font-weight: 500;
+      font-size: 20px;
+      padding: 10px; }
+    .sidebar .product .subtitle {
+      display: block;
+      color: grey;
+      padding: 10px; }
+  .sidebar .tags-container {
+    display: block;
+    padding: 10px 0px; }
+    .sidebar .tags-container .tag {
+      display: inline-block;
+      padding: 5px;
+      border: 1px solid lightgrey;
+      border-radius: 3px;
+      margin: 5px; }
+  .sidebar .option {
+    display: block;
+    padding: 15px 0px; }
+.chart-container {
+  display: inline-block;
+  position: absolute;
+  margin: 0px 10px;
+  background-color: white;
+  width: calc(100% - 300px); }
+  .chart-container th, .chart-container td {
+    padding: 10px;
+    text-align: left; }
+  .chart-container table {
+    width: 100%; }
+  .chart-container td {
+    color: darkgrey;
+    border-bottom: 1px solid lightgrey; }
