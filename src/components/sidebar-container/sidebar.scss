@@ -1,0 +1,49 @@
+.sidebar {
+  display: inline-block;
+  background-color: white;
+  width: 250px;
+  // outline: 1px solid lightgrey;
+  padding: 10px;
+  .product {
+    display: block;
+    text-align: center;
+    width: 100%;
+
+    .product-image {
+      display: block;
+      width: 60%;
+      max-width: 80%;
+      margin: auto;
+
+    }
+    .title {
+      display: block;
+      font-weight: 500;
+      font-size: 20px;
+      padding: 10px;
+    }
+    .subtitle {
+      display: block;
+      color: grey;
+      padding: 10px;
+    }
+  }
+
+  .tags-container {
+    display: block;
+    padding: 10px 0px;
+    .tag {
+      display: inline-block;
+      padding: 5px;
+      border: 1px solid lightgrey;
+      border-radius: 3px;
+      margin: 5px;
+    }
+  }
+
+  .option {
+    display: block;
+    padding: 15px 0px;
+
+  }
+}
